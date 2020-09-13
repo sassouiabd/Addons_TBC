@@ -1,0 +1,106 @@
+﻿--$Id: deDE.lua 35960 2007-05-20 16:11:20Z gamefaq $-- 
+-- deDE localization by Gamefaq
+local L = AceLibrary("AceLocale-2.2"):new("OneBag")
+
+if not getglobal("RURU") then
+	setglobal("RURU", "Русский")
+end
+
+L:RegisterTranslations("ruRU", function()
+   return {
+      ["Frame"]	= "Рамка",
+      ["Frame Options"]	= "Опции сумок.",
+      ["Columns"]	= "Колонки",
+      ["Sets the number of columns to use"]	= "Сколько колонок использовать.",
+      ["Scale"]	= "Масштаб",
+      ["Sets the scale of the frame"]	= "Установить масштаб сумок.",
+      ["Strata"]	= "Слой",
+      ["Sets the strata of the frame"]	= "Установить слой сумок.",
+      ["Alpha"]	= "Прозрачность",
+      ["Sets the alpha of the frame"]	= "Установить прозрачность сумок.",
+      ["Locked"]	= "Фиксация",
+      ["Toggles the ability to move the frame"]	= "Зафиксировать сумки чтобы не двигались.",
+      ["Clamped"]	= "Привязка",
+      ["Toggles the ability to drag the frame off screen."]	= "Вкл/Выкл возможность перетащить сумки за границу экрана.",
+      ["Sets wether to start a new row at the beginning of a bag."] = "Начинать ряд в начале новой сумки.",
+      ["Vertical Alignment"] = "Выравнивание по вертикали",
+      ["Sets wether to have the extra spaces on the top or bottom."] = "Оставлять пустые места вверху или внизу.",
+      ["Top"] = "Верх",
+      ["Bottom"] = "Низ",
+
+      ["Show"]	= "Показать",
+      ["Various Display Options"]	= "Различные опции внешнего вида.",
+      ["Counts"]	= "Подсчёт",
+      ["Toggles showing the counts for special bags."]	= "Показывать результат подсчёта для специальных сумок.",
+      ["Direction"]	= "Направление",
+      ["Forward"]	= "Прямое",
+      ["Toggles direction the bags are shown"]	= "Меняет направление, в котором показывается содержимое сумок.",
+      ["|cffff0000Reverse|r"]	= "|cffff0000Обратное|r",
+      ["|cff00ff00Forward|r"]	= "|cffff0000прямое|r",
+      ["Ammo Bag"]	= "Патронташ/Колчан",
+      ["Turns display of ammo bags on and off."]	= "Вкл/выкл отображение содержимого патронташей и колчанов.",
+      ["Soul Bag"]	= "Сумка душ",
+      ["Turns display of soul bags on and off."]	= "Вкл/выкл отображение содержимого мешков душ.",
+      ["Profession Bag"]	= "Сумка Профессии",
+      ["Turns display of profession bags on and off."]	= "Вкл/выкл отображение содержимого профессиональных сумок.",
+      ["Backpack"] = "Рюкзак",
+      ["Turns display of your backpack on and off."] = "Вкл/выкл отображение содержимого основного рюкзака.",
+      ["First Bag"] = "Первая сумка",
+      ["Turns display of your first bag on and off."] = "Вкл/выкл отображение содержимого первой сумки.",
+      ["Second Bag"] = "Вторая сумка",
+      ["Turns display of your second bag on and off."] = "Вкл/выкл отображение содержимого второй сумки.",
+      ["Third Bag"] = "Третья сумка",
+      ["Turns display of your third bag on and off."] = "Вкл/выкл отображение содержимого третьей сумки.",
+      ["Fourth Bag"] = "Четвёртая сумка",
+      ["Turns display of your fourth bag on and off."] = "Вкл/выкл отображение содержимого четвёртой сумки.",
+      ["'s Bags"] = " - личные мешки",		
+
+      ["Colors"]	= "Цвета",
+      ["Different color code settings."]	= "Настройки цветов.",
+      ["Mouseover Color"]	= "Цвет по наведению мыши",
+      ["Changes the highlight color for when you mouseover a bag slot."]	= "Меняет подцветку слота, на который наведена мышь.",
+      ["Ammo Bag Color"]	= "Цвет патронташей/колчанов",
+      ["Changes the highlight color for Ammo Bags."]	= "Устанавливает цвет патронташей или колчанов.",
+      ["Soul Bag Color"]	= "Цвет мешков душ",
+      ["Changes the highlight color for Soul Bags."]	= "Меняет подцветку у мешков душ.",
+      ["Profession Bag Color"]	= "Цвет профессиональных сумок",
+      ["Changes the highlight color for Profession Bags."]	= "Меняет подцветку у профессиональных сумок.",
+      ["Background Color"]	= "Цвет фона",
+      ["Changes the background color for the frame."]	= "Меняет цвет фона в сумках.",
+      ["Highlight Glow"]	= "Свечение подцветки",
+      ["Turns hightlight glow on and off."]	= "Вкл/Выкл свечение подцветки.",
+      ["Rarity Coloring"]	= "Подцвечивать редкие предметы",
+      ["Turns rarity coloring on and off."]	= "Включает-выключает подцветку редких предметов.",
+
+      ["Reset"]	= "Сброс",
+      ["Reset the different colors."]	= "Setzt die Farbeinstellungen auf die Standardwerte zurück.",
+      ["Returns your mouseover color to the default."]	= "Выставляет по умолчанию подцветку слота, на который наведена мышь.",
+      ["Ammo Slot Color"]	= "Слот амуниции",
+      ["Returns your ammo slot color to the default."]	= "Выставляет по умолчанию подцветку слотов амуниции.",
+      ["Soul Slot Color"]	= "Слот души",
+      ["Returns your soul slot color to the default."]	= "Выставляет по умолчанию подцветку слотов душ.",
+      ["Profession Slot Color"]	= "Слот профессии",
+      ["Returns your profession slot color to the default."]	= "Выставляет по умолчанию подцветку слотов профессии.",
+      ["Background"]	= "Цвет фона",
+      ["Returns your frame background to the default."]	= "Возвращает цвет фона к цвету по умолчанию.",
+      ["Plow!"]	= "Plow!",
+      ["Organizes your bags."]	= "Сортирует ваши сумки.",
+      ["- Note: This option only appears if you have MrPlow installed"]	= "- Примечание: Эта опция появляется только при установленном аддоне MrPlow.",
+
+      ["Pick Locale"] = "Выбрать локаль", 
+      ["Sets the locale to use.  Will not take effect until you reload your UI."] = "Выбрать локаль. Не будет применено, пока не перезагрузите UI.",
+
+      ["%s ran in %s"]	= "%s нуждается в %s",
+      ["Checking if bag %s is open"]	= "Проверка, открыта ли сумка %s .",
+      ["Opening bag %s"]	= "Открываем сумку %s",
+      ["Closing bag %s"]	= "Закрываем сумку %s",
+
+      ["Normal used: %s, Soul used: %s, Prof used: %s, Ammo used %s, Ammo quantity %s."]	= "Обычная: %s, Мешок душ: %s, Профессиональная: %s, Для амуниции: %s, %s единиц амуниции.",
+      ["%s/%s Slots"]	= "%s/%s Слотов",
+      ["%s/%s Ammo"]	= "%s/%s Амуниции",
+      ["%s/%s Soul Shards"]	= "%s/%s Камней душ",
+      ["%s/%s Profession Slots"]	= "%s/%s Проф.слотов",
+      
+      ["Menu"] = "Меню" 
+   }
+end)

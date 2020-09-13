@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r80504 | doktorjet | 2008-08-15 17:06:33 -0400 (Fri, 15 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/OneBag/localizations/OneCore.lua
+
+OneBag: - fixed problem in ruRU locale with profession bags recognition
+------------------------------------------------------------------------
+r79507 | doktorjet | 2008-07-30 13:03:49 -0400 (Wed, 30 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/OneBag/localizations/OneCore.lua
+
+OneBag: OOPS! Sorry, forgotten to upload OneCore.lua for russian localization.
+------------------------------------------------------------------------
+r79491 | doktorjet | 2008-07-30 11:16:13 -0400 (Wed, 30 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/OneBag/OneBag.toc
+   M /trunk/OneBag/localizations/locals.xml
+   A /trunk/OneBag/localizations/ruRU.lua
+
+OneBag: added russian (ruRU) localization file and .toc notes
+------------------------------------------------------------------------

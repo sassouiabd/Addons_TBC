@@ -1,0 +1,17 @@
+------------------------------------------------------------------------
+r73652 | grayhoof | 2008-05-13 00:02:39 -0400 (Tue, 13 May 2008) | 1 line
+Changed paths:
+   M /trunk/sctd/readme.txt
+   M /trunk/sctd/sctd.lua
+   M /trunk/sctd/sctd.toc
+
+sctd: 3.1 commit
+------------------------------------------------------------------------
+r70482 | grayhoof | 2008-04-19 12:29:31 -0400 (Sat, 19 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/sctd/locals/localization.cn.lua
+   M /trunk/sctd/sctd.lua
+
+sctd: Converted to a faster combat log system
+
+------------------------------------------------------------------------

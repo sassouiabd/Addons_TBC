@@ -1,0 +1,12 @@
+ <!--$Id: locals.xml 79491 2008-07-30 15:16:13Z doktorjet $ -->
+ <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+   <Script file="OneCore.lua"/> 
+   <Script file="enUS.lua"/> 
+   <Script file="ruRU.lua"/> 
+   <Script file="zhCN.lua"/> 
+   <Script file="deDE.lua"/> 
+   <Script file="koKR.lua"/> 
+   <Script file="nbNO.lua"/> 
+   <Script file="frFR.lua"/>
+   <Script file="zhTW.lua"/>
+</Ui>

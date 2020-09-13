@@ -1,0 +1,11 @@
+## Title: Configator
+## Notes: Easily construct a GUI configuration editor.
+##
+## Interface: 30000
+## LoadOnDemand: 0
+##
+## Version: 5.0.0 (BillyGoat)
+## Revision: $Id: Configator.toc 128 2008-10-09 11:26:38Z Norganna $
+## URL: http://auctioneeraddon.com/dl/Swatter/
+##
+Load.xml

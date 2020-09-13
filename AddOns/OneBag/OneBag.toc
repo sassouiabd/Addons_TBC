@@ -1,0 +1,31 @@
+﻿## Id: $Id: OneBag.toc 79491 2008-07-30 15:16:13Z doktorjet $
+## Interface: 20400
+## Title: OneBag |cff7fff7f -Ace2-|r
+## Notes: OneBag is a replacement for the default game bags that combines all the bags into one frame.
+## Notes-ruRU: OneBag это замена стандартного вида сумок, объединяющая их все в одном окне.
+## Notes-zhCN: 整合背包插件，以整合方式显示你的背包。
+## Notes-zhTW: 整合所有背包在一起。
+## Notes-deDE: Eine Tasche um sie alle zu beherrschen, und in der Dunkelheit zu binden.
+## Version: 2.0.$Revision: 79491 $
+## Author: Kaelten
+## X-Date: $Date: 2008-07-30 11:16:13 -0400 (Wed, 30 Jul 2008) $
+## X-Category: Frame Modification
+## X-eMail: kaelten@gmail.com
+## X-Website: http://www.wowace.com
+## X-RelSite-WoWI: 4207
+## X-WoWIPortal: kaelten
+
+## SavedVariables: OneBagDB
+
+## OptionalDeps: Ace2, DewdropLib
+## X-Embeds: Ace2, DewdropLib
+
+embeds.xml
+
+localizations\locals.xml
+
+templates.xml
+OneCore.lua
+
+OneBag.xml
+OneBag.lua

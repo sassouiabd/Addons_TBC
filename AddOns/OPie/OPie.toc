@@ -1,0 +1,28 @@
+## Interface: 20400
+## Title: OPie
+## Notes: 1. Bind infrequent actions to rings. 2. ??? 3. Eat pie.
+## Author: EU-Emerald Dream-Atreju
+## SavedVariables: OneRing_Config, OPie_Locale, OPie_OLog
+## OptionalDeps: ButtonFacade, LibButtonFacade
+## X-Version-Name: Public Beta 8
+## X-Version-Name-Wrath: Wrath Beta 3
+## X-Update-FeedURL: http://www.go-hero.net/opie/rss/beta
+EventLib.lua
+OneRingLib.lua
+OneRingLib-Wrath.lua
+Meta\Logger.lua
+OneRingLocale.lua
+OneRingLocale2.lua
+OneRingConfig.lua
+Meta\StanceBar.lua
+Meta\RingKeeper.lua
+Meta\RingKeeperConfig.lua
+Meta\RingKeeperShare.lua
+Meta\Animation.lua
+Rings\Common.Trinkets.lua
+Rings\Common.RaidSymbols.lua
+Rings\TP.ClosetGnome.lua
+Rings\RKRings.lua
+Rings\Druid.Shift.lua
+Rings\Shaman.Wolf.lua
+Rings\Warlock.Demons.lua

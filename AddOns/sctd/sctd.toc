@@ -1,0 +1,21 @@
+## Interface: 20400
+## Title: SCTD
+## Notes: Adds your damage to Scrolling Combat Text
+## Version: 3.1
+## Author: Grayhoof
+## Dependencies: sct
+## X-Website: http://grayhoof.wowinterface.com/
+## X-Category: Combat
+## X-RelSite-WoWI: 4913
+## OptionalDeps:
+sctd.lua
+sctd.xml
+locals\localization.lua
+locals\localization.de.lua
+locals\localization.fr.lua
+locals\localization.es.lua
+locals\localization.kr.lua
+locals\localization.tw.lua
+locals\localization.cn.lua
+
+

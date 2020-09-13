@@ -1,0 +1,36 @@
+------------------------------------------------------------------------
+r80453 | sylvanaar | 2008-08-14 20:08:48 -0400 (Thu, 14 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/ACP/ACP.lua
+   M /trunk/ACP/ACP.toc
+
+ACP: Change the embedded library discovery method
+------------------------------------------------------------------------
+r79593 | sylvanaar | 2008-08-01 00:52:56 -0400 (Fri, 01 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/ACP/ACP.lua
+   M /trunk/ACP/ACP.toc
+
+ACP: added a second chance for attaching to bugrabber and bugsack, removed thier optdeps, and changed the version to 2.4
+------------------------------------------------------------------------
+r79582 | sylvanaar | 2008-07-31 18:48:59 -0400 (Thu, 31 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/ACP/ACP.lua
+   M /trunk/ACP/localization-enUS.lua
+
+ACP: Added memory use number to the tooltip since its been requested a few times.
+------------------------------------------------------------------------
+r79579 | sylvanaar | 2008-07-31 18:00:04 -0400 (Thu, 31 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/ACP/ACP.lua
+   M /trunk/ACP/ACP.toc
+   M /trunk/ACP/localization-enUS.lua
+
+ACP: This adds support for tracking the current location of embedded libraries. If a library is currently being hosted by an addon, it will appear at the bottom of the tooltip. Please try it out and report any bugs you find. Currently limited to LibStub libs (which also covers Ace2 libs).
+------------------------------------------------------------------------
+r79533 | sylvanaar | 2008-07-30 18:36:36 -0400 (Wed, 30 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/ACP/ACP.toc
+
+ACP: Add an X-Credits line, from when I modified the description the credit to Saien was lost.
+------------------------------------------------------------------------
